@@ -15,9 +15,9 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         config.addAllowedOrigin("http://localhost:5173");
-        config.addAllowedOrigin("https://airbnb-clone-frontend-qh28e2rbv-nareshkumar05as-projects.vercel.app");
+        config.addAllowedOrigin("airbnb-43ignlw5b-nareshkumar05as-projects.vercel.app");
         config.addAllowedOrigin(
-                    "https://airbnb-clone-frontend-topaz.vercel.app"
+                    "airbnb-43ignlw5b-nareshkumar05as-projects.vercel.app"
                 );
 
         config.addAllowedMethod("*");
